@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>System.Drawing.GraphicsD</AssemblyName>
+    <RootNamespace>System.Drawing</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\System.DrawingD\System.DrawingD.csproj" />
+    <ProjectReference Include="..\System.NumericsD\System.NumericsD.csproj" />
+  </ItemGroup>
+
+</Project>
